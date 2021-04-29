@@ -2497,6 +2497,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+just-detect-adblock@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/just-detect-adblock/-/just-detect-adblock-1.1.0.tgz#01910678247394b8d8b146afc869055eda2edd2e"
+  integrity sha512-xtgnwBBZaLtKspGo6jDX/H0FDsHrn41mQVWhNHge7pZe6Nj2gU2izfC09O0rPU/i97iMcJFVjbecFiTAvmNhLQ==
+
 loader-utils@1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
@@ -3138,6 +3143,11 @@ react-refresh@0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-singleton-hook@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-singleton-hook/-/react-singleton-hook-3.1.1.tgz#5fcdd91bb09fcdaba30eeb8af22a68077bbe614b"
+  integrity sha512-OKsg1WhixObLoH2xpkxXjmeYE8VlIolHlbvmb7yOs+5qeIUtYYTJ9pADEsplVsbplpe+lnqRGP5vtnxgbV4naA==
 
 react-tidy@^1.3.0:
   version "1.3.0"

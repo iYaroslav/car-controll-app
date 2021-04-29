@@ -1,11 +1,12 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import { Fragment } from 'react'
 import Head from 'next/head'
-// import useAdBlockDetect from '../src/hooks/useAdBlockDetect'
+import useAdBlockDetect from '../hooks/useAdBlockDetect'
 import initUiKit, { Window, Header, Footer, Button, Modal, Keyboard } from '@iq/iq-ui-kit'
-import '@iq/iq-ui-kit/lib/iq-ui-kit.css'
 import useCarIp from '../hooks/useCarIp'
 import noop from '../utils/noop'
+
+import '@iq/iq-ui-kit/lib/iq-ui-kit.css'
 
 // function Alert(props) {
 //   // return <MuiAlert elevation={6} variant="filled" {...props} />
@@ -18,7 +19,7 @@ try {
 }
 
 export default function App(props) {
-  // useAdBlockDetect()
+  useAdBlockDetect()
   const { Component, pageProps } = props
   const [newVersionAvailable, setNewVersionAvailable] = useState(false)
   const [ip, setIp] = useCarIp()
@@ -35,7 +36,7 @@ export default function App(props) {
     setNewVersionAvailable(false)
 
     if (window.workbox) {
-      window.workbox.addEventListener('controlling', () => window.location.reload(false))
+      window.workbox.addEventListener('controlling', () => window.location.reload())
       window.workbox.messageSkipWaiting()
     }
   }, [])
@@ -88,7 +89,7 @@ export default function App(props) {
       </Window>
 
       {/*<ThemeProvider theme={ theme }>*/}
-      {/*  /!* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */ }*/}
+      {/*  /!* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */ }
       {/*  <CssBaseline/>*/}
       {/*  <div className={ classes.root } >*/}
       {/*    <Component { ...pageProps } />*/}

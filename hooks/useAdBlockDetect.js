@@ -1,4 +1,4 @@
-import { memo, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Router from 'next/router'
 import { singletonHook } from 'react-singleton-hook'
 import adDetect from 'just-detect-adblock'
@@ -30,7 +30,6 @@ function useAdBlockDetectImpl() {
       request.send()
     })
       .then((response) => {
-        console.log(response.status, response.responseText)
         if (response.status !== 200 || !response.responseText) {
           setAdBlockDetected(true)
         }
