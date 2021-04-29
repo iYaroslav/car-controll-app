@@ -7,15 +7,14 @@ import useCarIp from '../hooks/useCarIp'
 import noop from '../utils/noop'
 
 import '@iq/iq-ui-kit/lib/iq-ui-kit.css'
+import '../index.scss'
 
 // function Alert(props) {
 //   // return <MuiAlert elevation={6} variant="filled" {...props} />
 // }
 
-try {
+if (typeof window !== 'undefined') {
   initUiKit()
-} catch (ignored) {
-  // Crashes on server side rendering
 }
 
 export default function App(props) {
@@ -101,34 +100,6 @@ export default function App(props) {
       {/*    </Alert>*/}
       {/*  </Snackbar>*/}
       {/*</ThemeProvider>*/}
-
-      <style jsx global>{`
-        html {
-          font-size: 62.5%;
-        }
-
-        header.iq-layout-header {
-          padding: 0.8rem;
-        }
-
-        header.iq-layout-header .header-button {
-          margin-right: 0.8rem;
-        }
-
-        header.iq-layout-header .header-button .header-settings-button {
-          margin-left: 0.8rem;
-        }
-
-        header.iq-layout-header .iq-header-extra {
-          flex: none;
-          flex-direction: row;
-        }
-
-        header.iq-layout-header .iq-header-title p {
-          color: var(--iq-color);
-          font-weight: 400;
-        }
-      `}</style>
     </Fragment>
   )
 }

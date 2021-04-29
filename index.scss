@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+header.iq-layout-header {
+  padding: 0.8rem;
+}
+
+header.iq-layout-header .header-button {
+  margin-right: 0.8rem;
+}
+
+header.iq-layout-header .header-button .header-settings-button {
+  margin-left: 0.8rem;
+}
+
+header.iq-layout-header .iq-header-extra {
+  flex: none;
+  flex-direction: row;
+}
+
+header.iq-layout-header .iq-header-title p {
+  color: var(--iq-color);
+  font-weight: 400;
+}
+
+.sliders {
+  .power-slider-wrapper {
+    position: absolute;
+    left: 5vh;
+    top: 20vh;
+    width: 2.9rem;
+    bottom: 40vh;
+
+    &.right {
+      left: auto;
+      right: 5vh;
+    }
+
+    .iq-input {
+      height: 100%;
+    }
+
+    .value {
+      position: absolute;
+      left: -0.8rem;
+      right: -0.8rem;
+      margin-top: -1.45rem;
+      height: 2.9rem;
+      background: var(--iq-accent);
+      border-radius: var(--iq-input-border-radius);
+      top: 0;
+      pointer-events: none;
+    }
+  }
+
+  .power-slider {
+    margin: 0;
+    border-bottom: none;
+
+    .bar {
+      display: none;
+    }
+
+    input[type='range'] {
+      writing-mode: bt-lr; /* IE */
+      -webkit-appearance: slider-vertical; /* WebKit */
+      cursor: grab;
+      height: 100%;
+      width: 2.9rem;
+      opacity: 0;
+
+      @mixin thumb {
+        cursor: grab;
+      }
+
+      &::-webkit-slider-thumb {
+        @include thumb;
+      }
+
+      &::-moz-range-thumb {
+        @include thumb;
+      }
+
+      &::-ms-track {
+        @include thumb;
+      }
+    }
+  }
+}
