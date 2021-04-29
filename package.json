@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "curl -L https://shorturl.at/mKW39 --output .editorconfig"
+    "postinstall": "curl -L https://shorturl.at/mKW39 --output .editorconfig",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@iq/iq-ui-kit": "^2.6.106",
