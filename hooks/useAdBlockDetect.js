@@ -5,7 +5,9 @@ import adDetect from 'just-detect-adblock'
 import noop from '../utils/noop'
 
 function useAdBlockDetectImpl() {
-  if (!process.browser) return
+  if (!process.browser) {
+    return false
+  }
 
   const [adBlockDetected, setAdBlockDetected] = useState(false)
   console.log('Initializing ad block detector')
@@ -24,7 +26,7 @@ function useAdBlockDetectImpl() {
       request.open(
         'GET',
         'https://getmygeo.com',
-        false
+        false,
       )
 
       request.send()
@@ -46,6 +48,8 @@ function useAdBlockDetectImpl() {
       Router.push('/').catch(console.error)
     }
   }, [adBlockDetected])
+
+  return adBlockDetected
 }
 
 const useAdBlockDetect = singletonHook(undefined, useAdBlockDetectImpl)

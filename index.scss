@@ -13,25 +13,27 @@ body {
 }
 
 header.iq-layout-header {
-  padding: 0.8rem;
-}
+  padding: 0.8rem 1.6rem;
 
-header.iq-layout-header .header-button {
-  margin-right: 0.8rem;
-}
+  .header-button {
+    margin-right: 0.8rem;
+  }
 
-header.iq-layout-header .header-button .header-settings-button {
-  margin-left: 0.8rem;
-}
+  .iq-header-extra {
+    flex: none;
+    flex-direction: row;
+    margin: -0.8rem;
+    margin-left: 0;
 
-header.iq-layout-header .iq-header-extra {
-  flex: none;
-  flex-direction: row;
-}
+    .iq-button {
+      margin: 0;
+    }
+  }
 
-header.iq-layout-header .iq-header-title p {
-  color: var(--iq-color);
-  font-weight: 400;
+  .iq-header-title p {
+    color: var(--iq-color);
+    font-weight: 400;
+  }
 }
 
 .sliders {
