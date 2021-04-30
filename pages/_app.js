@@ -2,19 +2,20 @@ import React, { useEffect, useState, useCallback } from 'react'
 import { Fragment } from 'react'
 import Head from 'next/head'
 import useAdBlockDetect from '../hooks/useAdBlockDetect'
-import initUiKit, { Window, Header, Footer, Button, Modal, Keyboard } from '@iq/iq-ui-kit'
+import { initUIKit, Window, Header, Button, Keyboard } from '@iq/iq-ui-kit'
 import useCarIp from '../hooks/useCarIp'
 import noop from '../utils/noop'
 
 import '@iq/iq-ui-kit/lib/iq-ui-kit.css'
 import '../index.scss'
+import useTheme from '../hooks/useTheme'
 
 // function Alert(props) {
 //   // return <MuiAlert elevation={6} variant="filled" {...props} />
 // }
 
 if (typeof window !== 'undefined') {
-  initUiKit()
+  initUIKit()
 }
 
 export default function App(props) {
@@ -22,6 +23,7 @@ export default function App(props) {
   const { Component, pageProps } = props
   const [newVersionAvailable, setNewVersionAvailable] = useState(false)
   const [ip, setIp] = useCarIp()
+  const [theme, toggleTheme] = useTheme()
 
   useEffect(() => {
     // Remove the server-side injected CSS.
@@ -65,23 +67,32 @@ export default function App(props) {
       </Head>
 
       <Window
-        theme={ 'light' }
+        theme={ theme }
         header={<Header
           title={ 'Car Control' }
-          extra={ <Button
-            flat
-            icon='edit'
-            className={ 'header-settings-button' }
-            onClick={ () => {
-              Keyboard.IP
-                .show({
-                  title: 'Enter car IP address',
-                  value: ip,
-                })
-                .then(setIp)
-                .catch(noop)
-            } }
-          /> }
+          extra={ <>
+            <Button
+              flat
+              icon={ theme === 'light' ? 'dark_mode' : 'light_mode' }
+              className={ 'header-settings-button' }
+              onClick={ toggleTheme }
+            />
+
+            <Button
+              flat
+              icon='settings'
+              className={ 'header-settings-button' }
+              onClick={ () => {
+                Keyboard.IP
+                  .show({
+                    title: 'Enter car IP address',
+                    value: ip,
+                  })
+                  .then(setIp)
+                  .catch(noop)
+              } }
+            />
+          </> }
         />}
       >
         <Component { ...pageProps } />

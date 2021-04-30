@@ -911,10 +911,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iq/iq-ui-kit@^2.6.108":
-  version "2.6.108"
-  resolved "https://npm.leerybit.uz/@iq%2fiq-ui-kit/-/iq-ui-kit-2.6.108.tgz#d420943b7fc5dc8ee0b0af1ee80e60eb2e0fc5c4"
-  integrity sha512-VfFHfvCAGx4Jk4db+tmxszNziV5hYRJpTjhlQEjeCZxVk1Y1NzXBqkXShZrMZpD5y0ZzwIxwd+Jfjz+wJUjlzg==
+"@iq/iq-ui-kit@^2.6.113":
+  version "2.6.113"
+  resolved "https://npm.leerybit.uz/@iq%2fiq-ui-kit/-/iq-ui-kit-2.6.113.tgz#78ab42d339f163dbd478d7dda0c1cfe223cafc66"
+  integrity sha512-q1R6Fo160O1XDUhvOp04VjWKPwFN2WOjBNm6l3OYb5T1lNIro9IFRQcnUp6AuNELQH4M8o28ipcKS56W9m1eCQ==
   dependencies:
     change-case "^4.1.1"
     classnames "^2.2.6"
@@ -925,6 +925,7 @@
     is-touch-device "^1.0.1"
     ramda "^0.27.0"
     react-motion "^0.5.2"
+    react-spinner-material "^1.3.1"
     react-transition-group "^4.4.1"
     reduce-css-calc "^2.1.8"
     uuid "^8.3.2"
@@ -3170,6 +3171,11 @@ react-singleton-hook@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-singleton-hook/-/react-singleton-hook-3.1.1.tgz#5fcdd91bb09fcdaba30eeb8af22a68077bbe614b"
   integrity sha512-OKsg1WhixObLoH2xpkxXjmeYE8VlIolHlbvmb7yOs+5qeIUtYYTJ9pADEsplVsbplpe+lnqRGP5vtnxgbV4naA==
+
+react-spinner-material@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-spinner-material/-/react-spinner-material-1.3.1.tgz#31395f07547929c459c3964c5027fc79b883fcd4"
+  integrity sha512-UiCp5eRpRnhleE7ng1Pq4vqNKxbof+kG842JGekoSE0w+vUe7AbXTK1nebRaAloe3Lm0cRbLW621LKEAJMVT/Q==
 
 react-tidy@^1.3.0:
   version "1.3.0"

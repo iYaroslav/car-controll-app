@@ -10,7 +10,7 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
-    "@iq/iq-ui-kit": "^2.6.108",
+    "@iq/iq-ui-kit": "^2.6.113",
     "clsx": "^1.1.1",
     "just-detect-adblock": "^1.1.0",
     "konva": "^7.2.5",
